@@ -1,0 +1,19 @@
+{
+    "start": {
+      "id": "start",
+      "description": "A dimly lit room with stone walls. There's a rusty KEY on the floor.",
+      "exits": {
+        "north": "hallway"
+      },
+      "items": ["key"]
+    },
+    "hallway": {
+      "id": "hallway",
+      "description": "A long corridor with flickering torches. A cold draft blows from the east.",
+      "exits": {
+        "south": "start",
+        "east": "library"
+      },
+      "items": []
+    }
+  }
